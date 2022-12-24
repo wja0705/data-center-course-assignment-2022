@@ -15,19 +15,23 @@
     - 打印纸质版（A4）
 - 电子版(**汇报胶片、综述报告**)向作业库提交，纸质版只需综述报告，双面打印交国光C523
 
-## 如何准备
-
-1. 抓取![clone](./clone.png?raw=true)此仓库，关于git使用，请参考[git-tutorial](https://github.com/cs-course/git-tutorial)
-2. 进入仓库文件夹，建立**以学号命名**的文件夹，在里面创建作业文件，其中：**研讨胶片**命名为*presentation.(ppt|pptx|pdf)*，**综述报告**命名为*survey.(doc|docx|pdf)*，**实验报告**命名为*lab.(doc|docx|pdf)*
-3. 综述报告还需在线填报
-
-往届作业参考：<https://github.com/cs-course/data-center-course-assignment-2021>
-
 ## 如何提交
 
-### 电子版
+以典型Git操作流程举例：
 
-在github上发起pull，或者直接fork后，本地完成更新、提交、推送，给我Merge。
+1. 如果没有Github账号，需新建一个
+2. fork此仓库到自己账号
+3. 抓取自己账号里的克隆版仓库为本地仓库文件夹(`git clone ...`)
+4. 进入本地仓库文件夹，建立**以学号命名**的文件夹，在里面创建作业文件，其中：**研讨胶片**命名为*presentation.(ppt|pptx|pdf)*，**综述报告**命名为*survey.(doc|docx|pdf)*，然后
+5. Git添加(`git add ...`)
+6. Git提交(`git commit -m ...`)，又想起什么要修改，可返回步骤5
+7. 向自己账号中的克隆版仓库推送(`git push origin master`)
+8. 向此仓库发起拉取请求，我来审核、合并，随后即可在其中看到
+
+参考：
+
+- 往届作业: <https://github.com/cs-course/data-center-course-assignment-2021>
+- git使用: [git-tutorial](https://github.com/cs-course/git-tutorial)
 
 ### 纸质版
 
