@@ -4,7 +4,7 @@
 
 
 
-**presentation论文：**Accelerating XOR-Based Erasure Coding using Program Optimization Techniques
+**presentation论文：** Accelerating XOR-Based Erasure Coding using Program Optimization Techniques
 
 
 
@@ -15,4 +15,3 @@
 3. INEC: Fast and Coherent In-Network Erasure Coding
 4. CRaft: An Erasure-coding-supported Version of Ratft for Reducing Storage Cost and Network Cost
 5. LogECMem: Coupling Erasure-Coded In-Memory Key-Value Stores with Parity Logging
-   
